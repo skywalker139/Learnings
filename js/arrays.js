@@ -36,4 +36,3 @@ const myn2= myArr.splice(1,3); //same output but original array bhi change ho ja
 
 console.log(myn1);
 console.log("C ", myArr);
-
