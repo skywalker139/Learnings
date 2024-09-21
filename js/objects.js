@@ -49,12 +49,14 @@ console.log(Object.entries(tinderUser));  //array k andr array bna k de dega
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));   //check krta h ki vo property exist krti h ya nhi
 
+
+//de-structuring
 const course = {
     coursename: "js in hindi",
     price: "999",
     courseInstructor: "hitesh bhai"
 }
-
+// course.courseInstructor
 const {courseInstructor : instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
